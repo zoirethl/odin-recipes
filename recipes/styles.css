@@ -1,0 +1,22 @@
+body {
+    align-items: center;
+    background-image: url(baking_4299728.png);
+    background-repeat: repeat-x;
+    background-blend-mode: soft-light;
+    width: 500px;
+    margin: 20px;
+
+    
+    
+}
+img {
+    align-items: center;
+    border-radius: 15px;
+}
+p {
+    text-align: justify;
+    margin: 20px;
+}
+ol {
+    text-align: justify;
+}
