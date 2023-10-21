@@ -1,22 +1,55 @@
-body {
-    align-items: center;
-    background-image: url(baking_4299728.png);
-    background-repeat: repeat-x;
-    background-blend-mode: soft-light;
+.recipeBox {
+    margin-top: 50px;
+    display: block;
     width: 500px;
-    margin: 20px;
-
-    
+    box-sizing: border-box; 
+    border: 6px solid gray;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 0 auto;
     
 }
 img {
     align-items: center;
     border-radius: 15px;
+    display: block;
+    margin: 0 auto;
 }
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    background-color: rgba(203, 162, 242, 0.829);
+    border-radius: 5px;
+}
+
 p {
     text-align: justify;
     margin: 20px;
+    
 }
 ol {
     text-align: justify;
+}
+button {
+    padding: 20px 200px;
+    border-radius: 5px;
+    background-color: rgb(238, 191, 103);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+nav .logo {
+    color: coral;
+    text-align: left;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns:auto;
+    background: white;
+    top: 0px;
+    left: 0px;
+    position:fixed block;
+    width:100%;
+    
 }
