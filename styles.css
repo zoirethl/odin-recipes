@@ -1,40 +1,36 @@
 title {
-    
     width: fit-content;
 }
 nav .logo {
     color: coral;
-    text-align: center;
+    margin: 0;
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: left;
     font-size: 25px;
-    display: grid;
+    padding-left: 25px;
     grid-template-columns:auto;
     align-items: center;
     background: white;
-    top: 0px;
-    left: 0px;
     position:fixed;
     width:100%;
     
 }
 
-body {
-    background-color: rgb(190, 238, 246);
-    background-blend-mode: color-burn;
-    width: 100%;
+html{
+    
+    background: #648880;
+    background: linear-gradient(to right, #f6f1d3, #648880, #293f50);
    
 }
-.overflow {
-height: 400px;
-background-size: cover;
-overflow:auto;
-border-radius: 5px;
-margin-left: 150px;
+.overflow img{
+margin-block-start: 95px;
+width: 100%;
+position: relative;
    
 }
 .navigation ul {
-    font: bold 20px Arial, sans-serif;
-    margin-top: 50px;
-    padding: 60px 60px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
         
@@ -43,26 +39,15 @@ margin-left: 150px;
 .navigation li {
   
   margin: 0.75rem;
+  list-style: none;
+  flex: 1;
   
 }
 
-.navigation li a {
-    padding: 100px 100px; 
-    background-size: 100%;
-    border-radius: 10px;
-    margin-top: auto;
-    margin-right: 60px;
-    background-repeat: no-repeat;
-    
-    }
-
-.cake {
-    background-image: url(./recipes/icon_cake.png);
-   }
-
-.toast {
-    background-image: url(./recipes/icon_avocado.png);
+.navigation img {
+    width: 250px;
+    resize: horizontal;
+    border-radius: 20px;
+    box-shadow: -10px 10px black;
 }
-.bliss {
-    background-image: url(./recipes/icon_lemonade.png);
-}
+

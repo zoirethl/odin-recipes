@@ -7,6 +7,7 @@
     border-radius: 20px;
     padding: 8px;
     margin: 0 auto;
+    box-shadow: 10px -10px teal;
     
 }
 img {
@@ -46,10 +47,15 @@ nav .logo {
     font-size: 25px;
     display: grid;
     grid-template-columns:auto;
-    background: white;
+    background: #648880;
+    background: linear-gradient(to right, #f6f1d3, #648880, #293f50);
+    border-bottom: 20px;
     top: 0px;
     left: 0px;
     position:fixed block;
     width:100%;
     
 }
+
+    
+  
